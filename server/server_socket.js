@@ -24,7 +24,7 @@ app.use(function (req, res, next) {
 
 const server = require('http').createServer(app);
 const io = require('socket.io')(server);
-const port = 8011;
+const port = 3000;
 
 
 let role = {"werewolf":0,"villager":0,"seer":0,"bodyguard":0};
