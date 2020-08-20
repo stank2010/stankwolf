@@ -79,7 +79,7 @@ const style = (theme) => ({
 });
 
 
-const  socket = socketIOClient('http://35.247.169.0:8011/');  
+const  socket = socketIOClient("localhost:3000"); // change localhost:3000 to your server-side ip  
 let roleSeq = ["werewolf","seer","bodyguard"];
 let role = {"werewolf":0,"villager":0,"seer":0,"bodyguard":0};
 let allrole = ["werewolf","seer","bodyguard","villager"];
