@@ -1,0 +1,2 @@
+# stankwolf
+werewolf without moderator.  
