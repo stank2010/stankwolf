@@ -1,8 +1,8 @@
 ## Stankwolf - werewolf without moderator
 
-current stankwolf have 4 main role (villager , seer , werewolf and bodyguard)<br/>
-seer , werewolf and bodyguard should have only 1 role each game <br/>
-Stankwolf is my first project to use socket.io  with express and react <br/>
+Current stankwolf have 4 main role (villager , seer , werewolf and bodyguard)<br/>
+Each special role like seer , werewolf and bodyguard must have only once each game <br/>
+Stankwolf is my first project using socket.io , express and react <br/>
 Let's enjoy playing ... <br/>
 example : http://54.161.157.81:8013/ <br/>
 
