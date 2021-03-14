@@ -31,21 +31,15 @@ jobs:
       # uses: bahmutov/npm-install@44b9e76df0949f3df6616b334af42e055ce24831
       uses: bahmutov/npm-install@v1.6.0
         
-    - name: NPM or Yarn install with caching (Server)
-      # You may pin to the exact commit or the version.
-      # uses: bahmutov/npm-install@44b9e76df0949f3df6616b334af42e055ce24831
-      uses: bahmutov/npm-install@v1.6.0
-      with:
-        # Working directory to specify subfolder in which dependencies are defined
-        working-directory: server
+
     #- name: Install Frontend dependencies
     #  run: npm install
       
     #- name: Install Server dependencies
     #  run: npm --prefix ./server install ./server
       
-    - name: Run Server
-      run: npm --prefix ./server start
+    #- name: Run Server
+    #  run: npm --prefix ./server start
     
     - name: Run Frontend
       run: npm start 
