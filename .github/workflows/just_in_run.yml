@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x, 14.x, 15.x]
+        node-version: [12.x, 14.x, 15.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -41,8 +41,8 @@ jobs:
     #- name: Run Server
     #  run: npm --prefix ./server start
     
-    - name: Run Frontend
-      run: npm start 
+    - name: Build Frontend
+      run: npm build 
     
     
     
